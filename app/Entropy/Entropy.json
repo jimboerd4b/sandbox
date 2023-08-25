@@ -3,22 +3,22 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Circle1": 10,
-    "galleryTemplate3": 9,
+    "Circle1": 13,
+    "galleryTemplate3": 12,
     "Host": 3,
-    "iconNext1": 14,
-    "iconPrev1": 13,
+    "iconNext1": 10,
+    "iconPrev1": 9,
     "JimScreen": 4,
-    "Label1": 16,
-    "LabelSkip1": 15,
-    "TutorialImage1": 11,
-    "TutorialNavigator1": 8,
-    "TutorialScreen": 7,
-    "TutorialText1": 12
+    "Label1": 5,
+    "LabelSkip1": 14,
+    "TutorialImage1": 7,
+    "TutorialNavigator1": 11,
+    "TutorialScreen": 6,
+    "TutorialText1": 8
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/25/2023 14:21:18",
+  "HeaderLastSavedDateTimeUTC": "08/25/2023 14:27:24",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -77,19 +77,17 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0451018,
+    "AnalysisLoadTime": 0.1426867,
     "ControlCount": {
       "circle": 1,
-      "dataCard": 1,
-      "fluidGrid": 1,
       "gallery": 1,
       "galleryTemplate": 1,
       "icon": 2,
       "image": 1,
-      "label": 2,
+      "label": 3,
       "screen": 2
     },
-    "DeserializationLoadTime": 0.0962619
+    "DeserializationLoadTime": 1.5509843
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
