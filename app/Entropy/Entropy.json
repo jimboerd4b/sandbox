@@ -1,24 +1,9 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Circle1": 10,
-    "galleryTemplate3": 9,
-    "Host": 3,
-    "iconNext1": 14,
-    "iconPrev1": 13,
-    "JimScreen": 4,
-    "Label1": 16,
-    "LabelSkip1": 15,
-    "TutorialImage1": 11,
-    "TutorialNavigator1": 8,
-    "TutorialScreen": 7,
-    "TutorialText1": 12
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/25/2023 14:33:09",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -26,70 +11,16 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "CustomGallerySample": 0
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "circle": 4,
-    "gallery": 3,
-    "icon": 2,
-    "image": 1,
-    "label": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Circle1": {},
-    "galleryTemplate3": {},
-    "Host": {},
-    "iconNext1": {},
-    "iconPrev1": {},
-    "JimScreen": {},
-    "Label1": {},
-    "LabelSkip1": {},
-    "TutorialImage1": {},
-    "TutorialNavigator1": {},
-    "TutorialScreen": {},
-    "TutorialText1": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Circle1": 8,
-    "galleryTemplate3": 7,
-    "Host": 0,
-    "iconNext1": 5,
-    "iconPrev1": 4,
-    "JimScreen": 3,
-    "Label1": 0,
-    "LabelSkip1": 9,
-    "TutorialImage1": 2,
-    "TutorialNavigator1": 6,
-    "TutorialScreen": 6,
-    "TutorialText1": 3
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0451018,
-    "ControlCount": {
-      "circle": 1,
-      "dataCard": 1,
-      "fluidGrid": 1,
-      "gallery": 1,
-      "galleryTemplate": 1,
-      "icon": 2,
-      "image": 1,
-      "label": 2,
-      "screen": 2
-    },
-    "DeserializationLoadTime": 0.0962619
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
