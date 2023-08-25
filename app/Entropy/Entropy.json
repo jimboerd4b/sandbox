@@ -1,0 +1,99 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Canvas1": 5,
+    "Circle1": 10,
+    "DataCard1": 6,
+    "galleryTemplate3": 9,
+    "Host": 3,
+    "iconNext1": 14,
+    "iconPrev1": 13,
+    "JimScreen": 4,
+    "LabelSkip1": 15,
+    "TutorialImage1": 11,
+    "TutorialNavigator1": 8,
+    "TutorialScreen": 7,
+    "TutorialText1": 12
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "08/25/2023 14:10:09",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "circle": 5,
+    "fluidGrid": 0,
+    "gallery": 4,
+    "icon": 3,
+    "image": 1,
+    "label": 2
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Canvas1": {},
+    "Circle1": {},
+    "DataCard1": {},
+    "galleryTemplate3": {},
+    "Host": {},
+    "iconNext1": {},
+    "iconPrev1": {},
+    "JimScreen": {},
+    "LabelSkip1": {},
+    "TutorialImage1": {},
+    "TutorialNavigator1": {},
+    "TutorialScreen": {},
+    "TutorialText1": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Canvas1": 0,
+    "Circle1": 8,
+    "DataCard1": 1,
+    "galleryTemplate3": 7,
+    "Host": 0,
+    "iconNext1": 5,
+    "iconPrev1": 4,
+    "JimScreen": 3,
+    "LabelSkip1": 9,
+    "TutorialImage1": 2,
+    "TutorialNavigator1": 6,
+    "TutorialScreen": 6,
+    "TutorialText1": 3
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0451018,
+    "ControlCount": {
+      "circle": 1,
+      "dataCard": 1,
+      "fluidGrid": 1,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 2,
+      "image": 1,
+      "label": 2,
+      "screen": 2
+    },
+    "DeserializationLoadTime": 0.0962619
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}
