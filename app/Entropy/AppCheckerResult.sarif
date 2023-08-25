@@ -10,7 +10,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -22,7 +22,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -34,7 +34,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -46,7 +46,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -58,7 +58,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -70,7 +70,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -82,7 +82,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -94,7 +94,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -106,7 +106,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -118,7 +118,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -130,7 +130,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -142,7 +142,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -154,31 +154,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 4
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 4
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 4
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -191,160 +167,6 @@
         }
       ],
       "results": [
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "JimScreen.Canvas1.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "JimScreen.Canvas1.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "RectQuickActionBar2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "JimScreen",
-                "type": "JimScreen.Canvas1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "RectQuickActionBar2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "JimScreen.Canvas1.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "JimScreen.Canvas1.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": ".Y"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "JimScreen",
-                "type": "JimScreen.Canvas1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "JimScreen.Canvas1.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "JimScreen.Canvas1.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 24,
-                  "snippet": {
-                    "text": "RectQuickActionBar2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "JimScreen",
-                "type": "JimScreen.Canvas1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "RectQuickActionBar2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "JimScreen.Canvas1.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "JimScreen.Canvas1.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 43,
-                  "snippet": {
-                    "text": ".Height"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "JimScreen",
-                "type": "JimScreen.Canvas1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
         {
           "locations": [
             {
@@ -373,7 +195,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -403,7 +225,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -433,7 +255,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -463,7 +285,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         }
       ],
       "tool": {
@@ -471,37 +293,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
               "messageStrings": {

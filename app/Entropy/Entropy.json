@@ -3,9 +3,7 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Canvas1": 5,
     "Circle1": 10,
-    "DataCard1": 6,
     "galleryTemplate3": 9,
     "Host": 3,
     "iconNext1": 14,
@@ -20,7 +18,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/25/2023 14:15:23",
+  "HeaderLastSavedDateTimeUTC": "08/25/2023 14:21:18",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -35,18 +33,15 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "circle": 5,
-    "fluidGrid": 0,
-    "gallery": 4,
-    "icon": 3,
-    "image": 2,
-    "label": 1
+    "circle": 4,
+    "gallery": 3,
+    "icon": 2,
+    "image": 1,
+    "label": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Canvas1": {},
     "Circle1": {},
-    "DataCard1": {},
     "galleryTemplate3": {},
     "Host": {},
     "iconNext1": {},
@@ -63,9 +58,7 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Canvas1": 0,
     "Circle1": 8,
-    "DataCard1": 1,
     "galleryTemplate3": 7,
     "Host": 0,
     "iconNext1": 5,
