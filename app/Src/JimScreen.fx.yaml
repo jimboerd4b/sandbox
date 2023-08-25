@@ -19,3 +19,12 @@
             Y: =0
             ZIndex: =1
 
+    Label1 As label:
+        Height: =70
+        Size: =21
+        Text: ="Text"
+        Width: =560
+        X: =40
+        Y: =40
+        ZIndex: =4
+

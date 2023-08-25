@@ -11,6 +11,7 @@
     "iconNext1": 14,
     "iconPrev1": 13,
     "JimScreen": 4,
+    "Label1": 16,
     "LabelSkip1": 15,
     "TutorialImage1": 11,
     "TutorialNavigator1": 8,
@@ -19,7 +20,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/25/2023 14:10:09",
+  "HeaderLastSavedDateTimeUTC": "08/25/2023 14:11:07",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -38,8 +39,8 @@
     "fluidGrid": 0,
     "gallery": 4,
     "icon": 3,
-    "image": 1,
-    "label": 2
+    "image": 2,
+    "label": 1
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -51,6 +52,7 @@
     "iconNext1": {},
     "iconPrev1": {},
     "JimScreen": {},
+    "Label1": {},
     "LabelSkip1": {},
     "TutorialImage1": {},
     "TutorialNavigator1": {},
@@ -69,6 +71,7 @@
     "iconNext1": 5,
     "iconPrev1": 4,
     "JimScreen": 3,
+    "Label1": 0,
     "LabelSkip1": 9,
     "TutorialImage1": 2,
     "TutorialNavigator1": 6,
