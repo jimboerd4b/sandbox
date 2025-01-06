@@ -1,0 +1,973 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "accounts",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "account",
+    "Name": "Accounts",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Eigenaar",
+      "{Attachments}": "Attachments",
+      "account_actioncard": "Actiekaarten",
+      "Account_ActivityPointers": "Activiteiten",
+      "account_adx_inviteredemptions": "Benuttingen van uitnodigingen",
+      "account_adx_portalcomments": "Portalreacties",
+      "Account_Annotation": "Opmerkingen",
+      "Account_Appointments": "Afspraken",
+      "Account_AsyncOperations": "Systeemtaken",
+      "Account_BulkDeleteFailures": "Fouten bij bulkverwijdering",
+      "account_chats": "Teams-chats",
+      "account_connections1": "Verbindingen (account_connections1)",
+      "account_connections2": "Verbindingen (account_connections2)",
+      "Account_CustomerAddress": "Adressen",
+      "Account_DuplicateBaseRecord": "Dubbele records (Account_DuplicateBaseRecord)",
+      "Account_DuplicateMatchingRecord": "Dubbele records (Account_DuplicateMatchingRecord)",
+      "Account_Email_EmailSender": "E-mailberichten (Account_Email_EmailSender)",
+      "Account_Email_SendersAccount": "E-mailberichten (Account_Email_SendersAccount)",
+      "Account_Emails": "E-mailberichten (Account_Emails)",
+      "Account_Faxes": "Faxen",
+      "Account_Letters": "Brieven",
+      "Account_MailboxTrackingFolder": "Automatisch bijgehouden postvakmappen",
+      "account_master_account": "Accounts (account_master_account)",
+      "account_msfp_alerts": "Customer Voice-waarschuwing",
+      "account_msfp_surveyinvites": "Uitnodigingen voor Customer Voice-enquête",
+      "account_msfp_surveyresponses": "Responsen op Customer Voice-enquête",
+      "account_parent_account": "Accounts (account_parent_account)",
+      "Account_Phonecalls": "Telefoongesprekken",
+      "account_PostFollows": "Volgt",
+      "account_PostRegardings": "Bericht Betreft",
+      "account_principalobjectattributeaccess": "Velden delen",
+      "Account_ProcessSessions": "Processessies",
+      "Account_RecurringAppointmentMasters": "Terugkerende afspraken",
+      "Account_SharepointDocumentLocation": "Documentlocaties",
+      "Account_SyncErrors": "Synchronisatiefouten",
+      "Account_Tasks": "Taken",
+      "accountcategorycode": "Categorie",
+      "accountclassificationcode": "Classificatie",
+      "accountid": "Account",
+      "accountnumber": "Accountnummer",
+      "accountratingcode": "Accountwaardering",
+      "address1_addresstypecode": "Adres 1: adrestype",
+      "address1_city": "Adres 1: plaats",
+      "address1_composite": "Adres 1",
+      "address1_country": "Adres 1: land/regio",
+      "address1_county": "Adres 1: provincie (address1_county)",
+      "address1_fax": "Adres 1: fax",
+      "address1_freighttermscode": "Adres 1: leveringscondities",
+      "address1_latitude": "Adres 1: breedtegraad",
+      "address1_line1": "Adres 1: straat 1",
+      "address1_line2": "Adres 1: straat 2",
+      "address1_line3": "Adres 1: straat 3",
+      "address1_longitude": "Adres 1: lengtegraad",
+      "address1_name": "Adres 1: naam",
+      "address1_postalcode": "Adres 1: postcode",
+      "address1_postofficebox": "Adres 1: postbus",
+      "address1_primarycontactname": "Adres 1: naam van primaire contactpersoon",
+      "address1_shippingmethodcode": "Adres 1: verzendwijze",
+      "address1_stateorprovince": "Adres 1: provincie (address1_stateorprovince)",
+      "address1_telephone1": "Adres: telefoon",
+      "address1_telephone2": "Adres 1: telefoonnummer 2",
+      "address1_telephone3": "Adres 1: telefoonnummer 3",
+      "address1_upszone": "Adres 1: UPS-zone",
+      "address1_utcoffset": "Adres 1: UTC-afwijking",
+      "address2_addresstypecode": "Adres 2: adrestype",
+      "address2_city": "Adres 2: plaats",
+      "address2_composite": "Adres 2",
+      "address2_country": "Adres 2: land/regio (address2_country)",
+      "address2_county": "Adres 2: land/regio (address2_county)",
+      "address2_fax": "Adres 2: fax",
+      "address2_freighttermscode": "Adres 2: leveringscondities",
+      "address2_latitude": "Adres 2: breedtegraad",
+      "address2_line1": "Adres 2: straat 1",
+      "address2_line2": "Adres 2: straat 2",
+      "address2_line3": "Adres 2: straat 3",
+      "address2_longitude": "Adres 2: lengtegraad",
+      "address2_name": "Adres 2: naam",
+      "address2_postalcode": "Adres 2: postcode",
+      "address2_postofficebox": "Adres 2: postbus",
+      "address2_primarycontactname": "Adres 2: naam van primaire contactpersoon",
+      "address2_shippingmethodcode": "Adres 2: verzendwijze",
+      "address2_stateorprovince": "Adres 2: provincie",
+      "address2_telephone1": "Adres 2: telefoonnummer 1",
+      "address2_telephone2": "Adres 2: telefoonnummer 2",
+      "address2_telephone3": "Adres 2: telefoonnummer 3",
+      "address2_upszone": "Adres 2: UPS-zone",
+      "address2_utcoffset": "Adres 2: UTC-afwijking",
+      "adx_createdbyipaddress": "Created By (IP Address)",
+      "adx_createdbyusername": "Created By (User Name)",
+      "adx_invitation_assigntoaccount": "Uitnodigingen",
+      "adx_modifiedbyipaddress": "Modified By (IP Address)",
+      "adx_modifiedbyusername": "Modified By (User Name)",
+      "aging30": "Ouderdomsrangschikking 30",
+      "aging30_base": "Veroudering 30 (basis)",
+      "aging60": "Ouderdomsrangschikking 60",
+      "aging60_base": "Veroudering 60 (Basis)",
+      "aging90": "Ouderdomsrangschikking 90",
+      "aging90_base": "Veroudering 90 (Basis)",
+      "businesstypecode": "Ondernemingstype",
+      "contact_customer_accounts": "Contactpersonen (contact_customer_accounts)",
+      "createdby": "Gemaakt door",
+      "createdon": "Gemaakt op",
+      "createdonbehalfby": "Gemaakt door (gemachtigde)",
+      "creditlimit": "Kredietlimiet",
+      "creditlimit_base": "Kredietlimiet (Basis)",
+      "creditonhold": "Krediet geblokkeerd",
+      "customersizecode": "Klantgrootte",
+      "customertypecode": "Relatietype",
+      "description": "Beschrijving",
+      "donotbulkemail": "Bulk-e-mail niet toestaan (donotbulkemail)",
+      "donotbulkpostalmail": "Bulk-e-mail niet toestaan (donotbulkpostalmail)",
+      "donotemail": "E-mail niet toestaan",
+      "donotfax": "Faxen niet toestaan",
+      "donotphone": "Telefoongesprekken niet toestaan",
+      "donotpostalmail": "Post niet toestaan",
+      "donotsendmm": "Marketingmateriaal verzenden",
+      "emailaddress1": "E-mail",
+      "emailaddress2": "E-mailadres 2",
+      "emailaddress3": "E-mailadres 3",
+      "entityimage": "Standaardafbeelding",
+      "entityimageid": "Entiteitsafbeelding-id",
+      "exchangerate": "Wisselkoers",
+      "fax": "Fax",
+      "followemail": "E-mailactiviteit volgen",
+      "ftpsiteurl": "FTP-site",
+      "importsequencenumber": "Volgnummer van de importbewerking",
+      "industrycode": "Branche",
+      "lastonholdtime": "Laatste tijd in de wacht",
+      "lastusedincampaign": "Laatste datum van de campagne",
+      "marketcap": "Marktkapitalisatie",
+      "marketcap_base": "Marktkapitalisatie (Basis)",
+      "marketingonly": "Alleen marketing",
+      "masterid": "Master-id",
+      "merged": "Samengevoegd",
+      "modifiedby": "Gewijzigd door",
+      "modifiedon": "Gewijzigd op",
+      "modifiedonbehalfby": "Gewijzigd door (gemachtigde)",
+      "msa_account_managingpartner": "Accounts (msa_account_managingpartner)",
+      "msa_contact_managingpartner": "Contactpersonen (msa_contact_managingpartner)",
+      "msa_managingpartnerid": "Managing Partner",
+      "msft_datastate": "msft_DataState",
+      "name": "Accountnaam",
+      "numberofemployees": "Aantal werknemers",
+      "onholdtime": "Tijd in de wacht (minuten)",
+      "overriddencreatedon": "Record is gemaakt op",
+      "ownershipcode": "Eigendom",
+      "owningbusinessunit": "Business unit die eigenaar is",
+      "owningteam": "Team dat eigenaar is",
+      "owninguser": "Gebruiker die eigenaar is",
+      "parentaccountid": "Moederaccount",
+      "participatesinworkflow": "Neemt deel aan werkstroom",
+      "paymenttermscode": "Betalingsvoorwaarden",
+      "powerpagecomponent_mspp_webrole_account": "Siteonderdelen",
+      "preferredappointmentdaycode": "Voorkeursdag",
+      "preferredappointmenttimecode": "Voorkeurstijd",
+      "preferredcontactmethodcode": "Voorkeursmethode van contact",
+      "preferredsystemuserid": "Voorkeursgebruiker",
+      "primarycontactid": "Primaire contactpersoon",
+      "primarysatoriid": "Primaire Satori-id",
+      "primarytwitterid": "Primaire Twitter-id",
+      "processid": "Proces",
+      "revenue": "Jaaromzet",
+      "revenue_base": "Jaaromzet (Basis)",
+      "sharesoutstanding": "Openstaande aandelen",
+      "shippingmethodcode": "Verzendwijze",
+      "sic": "SIC-code",
+      "stageid": "(Afgeschaft) Procesfase",
+      "statecode": "Status",
+      "statuscode": "Reden van status",
+      "stockexchange": "Effectenbeurs",
+      "telephone1": "Telefoonnummer 1",
+      "telephone2": "Telefoonnummer 2",
+      "telephone3": "Telefoonnummer 3",
+      "territorycode": "Rayoncode",
+      "tickersymbol": "Beurssymbool",
+      "timespentbymeonemailandmeetings": "Door mij bestede tijd",
+      "timezoneruleversionnumber": "Versienummer van tijdzoneregel",
+      "transactioncurrencyid": "Valuta",
+      "traversedpath": "(Afgeschaft) Afgelegd pad",
+      "utcconversiontimezonecode": "Tijdzonecode van UTC-conversie",
+      "versionnumber": "Versienummer",
+      "websiteurl": "Website",
+      "yominame": "Yomi-accountnaam"
+    },
+    "PreferredName": "Accounts",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Accounts (Views)",
+    "Name": "_account_views",
+    "RelatedEntityName": "Accounts",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "00000000-0000-0000-00aa-000000666000": "Weergave Geavanceerd zoeken naar accounts",
+      "00000000-0000-0000-00aa-000010001001": "Mijn actieve accounts",
+      "00000000-0000-0000-00aa-000010001002": "Actieve accounts",
+      "00000000-0000-0000-00aa-000010001031": "Inactieve accounts",
+      "00000000-0000-0000-00aa-000010001200": "Gekoppelde weergave van account",
+      "15c63745-0a6e-4322-8416-a62c84d90279": "Accounts: door ons gewonnen deals die werden beïnvloed",
+      "49fb9771-09e1-4e70-b193-198752493577": "Accounts: laatste 6 mnd gereageerd op campagnes",
+      "65ffaf9a-e8c5-432d-860b-32f841b00d87": "Alle accounts",
+      "a9af0ab8-861d-4cfa-92a5-c6281fed7fab": "Weergave Accounts opzoeken",
+      "cfbcd7af-aee5-4e45-8ecc-c040d4020581": "Accounts: laatste 3 mnd geen campagneactiviteiten",
+      "d234426e-1f37-4944-9255-50e19b541c4c": "Mijn verbindingen"
+    }
+  },
+  {
+    "DisplayName": "Categorie (Accounts)",
+    "Name": "account_accountcategorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Voorkeursklant",
+      "2": "Standaard"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountcategorycode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountcategorycode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Classificatie (Accounts)",
+    "Name": "account_accountclassificationcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standaardwaarde"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountclassificationcode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountclassificationcode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Accountwaardering (Accounts)",
+    "Name": "account_accountratingcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standaardwaarde"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountratingcode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountratingcode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adres 1: adrestype (Accounts)",
+    "Name": "account_address1_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Factureren aan",
+      "2": "Verzenden naar",
+      "3": "Primair",
+      "4": "Overige"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_addresstypecode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_addresstypecode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adres 1: leveringscondities (Accounts)",
+    "Name": "account_address1_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Vrij aan boord (FOB)",
+      "2": "Geen kosten"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_freighttermscode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_freighttermscode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adres 1: verzendwijze (Accounts)",
+    "Name": "account_address1_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Luchtvracht",
+      "2": "DHL",
+      "3": "FedEx",
+      "4": "UPS",
+      "5": "Post",
+      "6": "Expeditie",
+      "7": "Wordt afgehaald"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_shippingmethodcode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adres 2: adrestype (Accounts)",
+    "Name": "account_address2_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standaardwaarde"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_addresstypecode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_addresstypecode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adres 2: leveringscondities (Accounts)",
+    "Name": "account_address2_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standaardwaarde"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_freighttermscode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_freighttermscode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adres 2: verzendwijze (Accounts)",
+    "Name": "account_address2_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standaardwaarde"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_shippingmethodcode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Ondernemingstype (Accounts)",
+    "Name": "account_businesstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standaardwaarde"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "businesstypecode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "businesstypecode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Krediet geblokkeerd (Accounts)",
+    "Name": "account_creditonhold",
+    "OptionSetInfoNameMapping": {
+      "0": "Nee",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "creditonhold",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "creditonhold",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Klantgrootte (Accounts)",
+    "Name": "account_customersizecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standaardwaarde"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customersizecode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customersizecode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Relatietype (Accounts)",
+    "Name": "account_customertypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Concurrent",
+      "10": "Leverancier",
+      "11": "Verkoper",
+      "12": "Overige",
+      "2": "Adviseur",
+      "3": "Klant",
+      "4": "Belegger",
+      "5": "Partner",
+      "6": "Beïnvloeder",
+      "7": "Pers",
+      "8": "Prospect",
+      "9": "Wederverkoper"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customertypecode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customertypecode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Bulk-e-mail niet toestaan (Accounts)",
+    "Name": "account_donotbulkemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Toestaan",
+      "1": "Niet toestaan"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkemail",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkemail",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Bulk-e-mail niet toestaan (Accounts)_1",
+    "Name": "account_donotbulkpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Nee",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkpostalmail",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkpostalmail",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "E-mail niet toestaan (Accounts)",
+    "Name": "account_donotemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Toestaan",
+      "1": "Niet toestaan"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotemail",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotemail",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Faxen niet toestaan (Accounts)",
+    "Name": "account_donotfax",
+    "OptionSetInfoNameMapping": {
+      "0": "Toestaan",
+      "1": "Niet toestaan"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotfax",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotfax",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Telefoongesprekken niet toestaan (Accounts)",
+    "Name": "account_donotphone",
+    "OptionSetInfoNameMapping": {
+      "0": "Toestaan",
+      "1": "Niet toestaan"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotphone",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotphone",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Post niet toestaan (Accounts)",
+    "Name": "account_donotpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Toestaan",
+      "1": "Niet toestaan"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotpostalmail",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotpostalmail",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Marketingmateriaal verzenden (Accounts)",
+    "Name": "account_donotsendmm",
+    "OptionSetInfoNameMapping": {
+      "0": "Verzenden",
+      "1": "Niet verzenden"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotsendmm",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotsendmm",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "E-mailactiviteit volgen (Accounts)",
+    "Name": "account_followemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Niet toestaan",
+      "1": "Toestaan"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "followemail",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "followemail",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Branche (Accounts)",
+    "Name": "account_industrycode",
+    "OptionSetInfoNameMapping": {
+      "34": "Landbouw, jacht, bosbouw en visserij",
+      "35": "Energie- en waterhuishouding",
+      "36": "Winning en verwerking van niet-energetische delfstoffen en hun derivaten; chemische industrie",
+      "37": "Metaalverwerkende industrie; fijnmechanische en optische industrie",
+      "38": "Andere be- en verwerkende industrieën",
+      "39": "Bouwnijverheid",
+      "40": "Handel, hotels, restaurants en cafés, reparatiebedrijven",
+      "41": "Vervoer en communicatie",
+      "42": "Bank- en verzekeringswezen, dienstverleningen ten behoeve van ondernemingen, verhuur",
+      "43": "Overige dienstverlening"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "industrycode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "industrycode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsPrivate (Accounts)",
+    "Name": "account_isprivate",
+    "OptionSetInfoNameMapping": {
+      "0": "Nee",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isprivate",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isprivate",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Alleen marketing (Accounts)",
+    "Name": "account_marketingonly",
+    "OptionSetInfoNameMapping": {
+      "0": "Nee",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "marketingonly",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "marketingonly",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Samengevoegd (Accounts)",
+    "Name": "account_merged",
+    "OptionSetInfoNameMapping": {
+      "0": "Nee",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "merged",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "merged",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Eigendom (Accounts)",
+    "Name": "account_ownershipcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Openbaar",
+      "10": "Stichting",
+      "2": "Particulier",
+      "3": "Dochteronderneming",
+      "4": "Overige",
+      "5": "Eenmanszaak",
+      "6": "VOF",
+      "7": "BV",
+      "8": "NV",
+      "9": "CV"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ownershipcode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ownershipcode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Neemt deel aan werkstroom (Accounts)",
+    "Name": "account_participatesinworkflow",
+    "OptionSetInfoNameMapping": {
+      "0": "Nee",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "participatesinworkflow",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "participatesinworkflow",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Betalingsvoorwaarden (Accounts)",
+    "Name": "account_paymenttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Netto 30 dgn",
+      "2": "2% 10, netto 30 dgn",
+      "3": "Netto 45 dgn",
+      "4": "Netto 60 dgn"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "paymenttermscode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "paymenttermscode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Voorkeursdag (Accounts)",
+    "Name": "account_preferredappointmentdaycode",
+    "OptionSetInfoNameMapping": {
+      "0": "Zondag",
+      "1": "Maandag",
+      "2": "Dinsdag",
+      "3": "Woensdag",
+      "4": "Donderdag",
+      "5": "Vrijdag",
+      "6": "Zaterdag"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmentdaycode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmentdaycode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Voorkeurstijd (Accounts)",
+    "Name": "account_preferredappointmenttimecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ochtend",
+      "2": "Middag",
+      "3": "Avond"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmenttimecode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmenttimecode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Voorkeursmethode van contact (Accounts)",
+    "Name": "account_preferredcontactmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Willekeurig",
+      "2": "E-mail",
+      "3": "Telefoon",
+      "4": "Fax",
+      "5": "Post"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredcontactmethodcode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredcontactmethodcode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Verzendwijze (Accounts)",
+    "Name": "account_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standaardwaarde"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "shippingmethodcode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "shippingmethodcode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Accounts)",
+    "Name": "account_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Actief",
+      "1": "Inactief"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Reden van status (Accounts)",
+    "Name": "account_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Actief",
+      "2": "Inactief"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Rayoncode (Accounts)",
+    "Name": "account_territorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standaardwaarde"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "territorycode",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "territorycode",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "DataState",
+    "Name": "msft_datastate",
+    "OptionSetInfoNameMapping": {
+      "0": "Default",
+      "1": "Retain"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msft_datastate",
+        "OptionSetReferenceEntityName": "Accounts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "msft_datastate",
+    "RelatedEntityName": "Accounts",
+    "Type": "OptionSetInfo"
+  }
+]
