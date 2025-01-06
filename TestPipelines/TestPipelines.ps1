@@ -11,7 +11,7 @@ $Folder = $Path + $SolutionName + "_Unpacked"
 
 Remove-Item $Folder -Recurse
 
-pac auth select --name Prominent
+pac auth select --name P4PPlatform
 
 #pac solution online-version --solution-name $SolutionName --solution-version $Version -env $Environment
 #pac solution export --path $FileManaged --name $SolutionName --managed -env $Environment -ow
